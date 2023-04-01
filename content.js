@@ -1,4 +1,4 @@
-let totalTime = {
+var totalTime = {
   seconds: 0,
   minutes: 0,
   hours: 0,
@@ -6,7 +6,7 @@ let totalTime = {
 
 document.querySelectorAll("ytd-playlist-video-renderer").forEach((element) => {
   try {
-    let timelist = element
+    var timelist = element
       .querySelector("#overlays")
       .querySelector("ytd-thumbnail-overlay-time-status-renderer")
       .querySelector("span")

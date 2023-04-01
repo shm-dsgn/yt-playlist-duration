@@ -20,5 +20,3 @@ A simple JS app which when opened in a tab having a YouTube playlist, shows the 
 ### Note (IMPORTANT)
 
 1. Youtube by default doesn't load all the videos of a playlist if there are more than 50 videos. So to make the extension work properly, you need to scroll down to the end of the list so that all the videos are loaded.
-
-2. There is a known bug for now. Once the user has seen the length of the playlist, and the extension is activated again, it won't show any details. You need to refresh the page and run the extension again. (This will be fixed in the later updates.)
