@@ -11,3 +11,7 @@ A simple JS app which when opened in a tab having a YouTube playlist, shows the 
 4. Go to Extension option in Settings and turn on Developer Mode.
 5. Click on "Load Unpacked" and go into the folder where the ZIP file was extracted.
 6. Click on Select and Voila, you have loaded the extension successfully.
+
+
+### Note
+Youtube by default doesn't load all the videos of a playlist if there are more than 50 videos. So to make the extension work properly, you need to scroll down to the end of the list so that all the videos are loaded. 
