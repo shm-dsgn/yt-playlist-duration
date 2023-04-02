@@ -1,10 +1,11 @@
 {
     "name": "YTPlaylist Duration",
     "version": "1.0.0",
-    "description": "Shows an alert of the duration of the youtube playlist.",
+    "description": "Popup to show the duration of the youtube playlist.",
     "manifest_version": 3,
     "action": {
       "default_title": "YTPlaylist Duration",
+      "default_popup": "popup.html",
       "default_icon": {
         "16": "assets/icon16.png",
         "48": "assets/icon48.png",
@@ -15,9 +16,6 @@
       "activeTab",
       "tabs",
       "scripting"
-    ],
-    
-      "background": {
-        "service_worker": "background.js"
-      }
+    ]
+      
   }

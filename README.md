@@ -1,8 +1,6 @@
 # yt-playlist-duration
 
-Shows an alert of the duration of the Youtube playlist
-
-A simple JS app which when opened in a tab having a YouTube playlist, shows the total time of the playlist.
+A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
 ## Steps to use it
 
@@ -14,8 +12,10 @@ A simple JS app which when opened in a tab having a YouTube playlist, shows the 
 6. Click on Select and Voila, you have loaded the extension successfully.
 
 ## Screenshots
+
 ![Screenshot](screenshots/s1.png)
 ![Screenshot](screenshots/s2.png)
+![Screenshot](screenshots/s3.png)
 
 ### Note (IMPORTANT)
 
