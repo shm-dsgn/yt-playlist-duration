@@ -14,7 +14,9 @@ A simple JavaScript application which when opened in a tab having a YouTube play
 ## Screenshots
 
 ![Screenshot](screenshots/s1.png)
+
 ![Screenshot](screenshots/s2.png)
+
 ![Screenshot](screenshots/s3.png)
 
 ### Note (IMPORTANT)
