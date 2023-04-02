@@ -1,10 +1,18 @@
-# yt-playlist-duration
+# YouTube Playlist Duration
 
 ![Image](assets/icon128.png)
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
-## Steps to use it
+## Preview
+
+![Screenshot](screenshots/s1.png)
+
+![Screenshot](screenshots/s2.png)
+
+![Screenshot](screenshots/s3.png)
+
+## Installation 
 
 1. Download the ZIP file of the repository.
 2. Extract the ZIP file.
@@ -13,13 +21,6 @@ A simple JavaScript application which when opened in a tab having a YouTube play
 5. Click on "Load Unpacked" and go into the folder where the ZIP file was extracted.
 6. Click on Select and Voila, you have loaded the extension successfully.
 
-## Screenshots
-
-![Screenshot](screenshots/s1.png)
-
-![Screenshot](screenshots/s2.png)
-
-![Screenshot](screenshots/s3.png)
 
 ### Note (IMPORTANT)
 
