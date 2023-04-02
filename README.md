@@ -4,6 +4,8 @@
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
+Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
+
 ## Preview
 
 ![Screenshot](screenshots/s1.png)
