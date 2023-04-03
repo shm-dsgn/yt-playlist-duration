@@ -7,14 +7,16 @@ callCalculate = (tab) => {
           files: ['content.js']
         }
       )
+      //console.log(`Tab id: ${id} and url: ${url}`)
     }
     else{
-        document.querySelector("#p1").innerHTML = "This page doesn't have a YouTube playlist";
+        document.querySelector("#p1").innerHTML = "This page doesn't have a YouTube playlist.";
+        document.querySelector("footer").innerHTML = " ";
     }
   }
   
   getCurrentTab = async () => {
-    let queryOptions = { active: true };
+    let queryOptions = { active: true};
     let [tab] = await chrome.tabs.query(queryOptions);
     return tab;
   }
