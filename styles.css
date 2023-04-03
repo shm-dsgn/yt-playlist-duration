@@ -2,10 +2,12 @@
 
 html, body {
     width: 450px;
-    height: 250px;
-  }
+    height: 300px;
+    background-color: #292a2d;
+    color: white;
+}
 
-#v, #avg, #p1, #p1_5, #p2, #image{
+#v, #t_v, #avg, #p1, #p1_5, #p2, #image{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,12 +17,12 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #000000;
 }
 
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 11px;
 }
+

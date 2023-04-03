@@ -47,7 +47,9 @@ timeCalc = (time, totalTime) => {
 }
 
 //to calculate total no. of videos
-var mvid = `Total no. of videos: ${vidCount}`;
+var mvid = `No. of videos counted: ${vidCount}`;
+
+var mtotal_vid = `Total no. of videos: ${document.querySelector(".metadata-stats yt-formatted-string").firstChild.innerText}`;
 
 //to calculate time at 1x
 totalTime.minutes += parseInt(totalTime.seconds / 60);
@@ -73,11 +75,12 @@ var totalTimeInSec2 = totalTimeInSec / 2;
 var m2 = `At 2x: ${timeCalc(totalTimeInSec2, totalTime)}`;
 
 var details = {
-  v: mvid,
-  avg: m_avg,
-  t1: m1,
-  t1_5: m1_5,
-  t2: m2
+  vid: mvid,
+  total_vid: mtotal_vid,
+  avgTime: m_avg,
+  time1: m1,
+  time1_5: m1_5,
+  time2: m2
 }
 
 chrome.runtime.sendMessage(details);
