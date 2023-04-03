@@ -14,6 +14,8 @@ Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 
 ![Screenshot](screenshots/s3.png)
 
+![Screenshot](screenshots/s4.png)
+
 ## Installation 
 
 1. Download the ZIP file of the repository.
