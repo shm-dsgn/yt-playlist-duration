@@ -1,3 +1,7 @@
+Tired of copy pasting Youtube Playlist links to other website to find out its total duration and other information??
+
+Well, here's a solution for you...
+
 # YouTube Playlist Duration
 
 ![Image](assets/icon128.png)
@@ -17,6 +21,10 @@ Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 ![Screenshot](screenshots/s4.png)
 
 ## Installation 
+
+Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil)
+
+OR
 
 1. Download the ZIP file of the repository.
 2. Extract the ZIP file.
