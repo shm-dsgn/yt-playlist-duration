@@ -8,6 +8,8 @@ Well, here's a solution for you...
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
+[Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil)
+
 Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 
 ## Preview
