@@ -4,7 +4,7 @@ Well, here's a solution for you...
 
 # YouTube Playlist Duration
 
-![Image](assets/icon128.png)
+![Image](screenshots/Marquee.png)
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
@@ -31,9 +31,10 @@ OR
 1. Download the ZIP file of the repository.
 2. Extract the ZIP file.
 3. Open Chrome or any Chromium based browser(eg: Brave or Microsoft Edge)
-4. Go to Extension option in Settings and turn on Developer Mode.
-5. Click on "Load Unpacked" and go into the folder where the ZIP file was extracted.
-6. Click on Select and Voila, you have loaded the extension successfully.
+4. Go to `chrome://extensions` or Extension option in Settings 
+5. Turn on **Developer Mode**.
+6. Click on "Load Unpacked" and go into the folder where the ZIP file was extracted.
+7. Click on Select and Voila, you have loaded the extension successfully.
 
 
 ### Note (IMPORTANT)
