@@ -1,6 +1,9 @@
 callCalculate = (tab) => {
   const { id, url } = tab;
-  if (url.indexOf("https://www.youtube.com/playlist?") > -1) {
+  if (
+    url.indexOf("https://www.youtube.com/playlist?") > -1 ||
+    url.match(/^.*(youtu.be\/|list=)([^#\&\?]*).*/)
+  ) {
     chrome.scripting.executeScript({
       target: { tabId: id },
       files: ["content.js"],
@@ -24,10 +27,9 @@ getCurrentTab().then((tab) => {
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   document.querySelector("#v").innerHTML = request.vid;
-  document.querySelector("#t_v").innerHTML = request.total_vid;
+  //document.querySelector("#t_v").innerHTML = request.total_vid;
   document.querySelector("#avg").innerHTML = request.avgTime;
   document.querySelector("#p1").innerHTML = request.time1;
   document.querySelector("#p1_5").innerHTML = request.time1_5;
   document.querySelector("#p2").innerHTML = request.time2;
 });
-
