@@ -22,8 +22,6 @@ Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 
 ![Screenshot](screenshots/s4.png)
 
-![Screenshot](screenshots/s5.png)
-
 ## Installation 
 
 Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil)
