@@ -4,7 +4,7 @@ Well, here's a solution for you...
 
 # YouTube Playlist Duration
 
-![Image](screenshots/Marquee.png)
+![Image](https://drive.google.com/uc?id=10gAlttF1wdK2dHz6_P-V1Z30J0GTxif4)
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
 
@@ -14,13 +14,13 @@ Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 
 ## Preview
 
-![Screenshot](screenshots/s1.png)
+![Screenshot](https://drive.google.com/uc?id=1kdZ-74MhejOYQS7wvoG5nY1VCKCbfA3d)
 
-![Screenshot](screenshots/s2.png)
+![Screenshot](https://drive.google.com/uc?id=1XUXhgd7sJGCJBEO6kJc0pbukQWrR_w_8)
 
-![Screenshot](screenshots/s3.png)
+![Screenshot](https://drive.google.com/uc?id=1__wGcW89Ic7X7ZpJSpU2ELCNITqZr3P-)
 
-![Screenshot](screenshots/s4.png)
+![Screenshot](https://drive.google.com/uc?id=1VTEhheXwBv7EF0itFrl08YX6x4cPpSW0)
 
 ## Installation 
 
