@@ -3,7 +3,7 @@ Tired of copy pasting Youtube Playlist links to other website to find out its to
 Well, here's a solution for you...
 
 # YouTube Playlist Duration
-
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bpojpijaddmjkblcbkhnhhgjecmfmgil)]([https://chrome.google.com/webstore/detail/vertical-tabs/pddljdmihkpdfpkgmbhdomeeifpklgnm](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil))  [![users](https://img.shields.io/chrome-web-store/users/bpojpijaddmjkblcbkhnhhgjecmfmgil)]([https://chrome.google.com/webstore/detail/vertical-tabs/pddljdmihkpdfpkgmbhdomeeifpklgnm](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil))
 ![Image](https://drive.google.com/uc?id=10gAlttF1wdK2dHz6_P-V1Z30J0GTxif4)
 
 A simple JavaScript application which when opened in a tab having a YouTube playlist, shows the duration of the Youtube playlist in the popup of the extension.
