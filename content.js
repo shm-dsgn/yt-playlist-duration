@@ -55,9 +55,9 @@ timeCalc = (time, totalTime) => {
 
   let hrs, mins, secs;
 
-  hrs = totalTime.hours > 0 ? `${totalTime.hours} hours ` : ``;
-  mins = totalTime.minutes > 0 ? `${totalTime.minutes} minutes ` : ``;
-  secs = totalTime.seconds > 0 ? `${totalTime.seconds} seconds` : ``;
+  hrs = totalTime.hours > 0 ? `${totalTime.hours} hrs ` : ``;
+  mins = totalTime.minutes > 0 ? `${totalTime.minutes} mins ` : ``;
+  secs = totalTime.seconds > 0 ? `${totalTime.seconds} secs` : ``;
 
   return hrs + mins + secs;
 };
@@ -71,7 +71,7 @@ totalTime.seconds = totalTime.seconds % 60;
 totalTime.hours += parseInt(totalTime.minutes / 60);
 totalTime.minutes = totalTime.minutes % 60;
 
-var m1 = `Total time of playlist: ${totalTime.hours} hours ${totalTime.minutes} minutes ${totalTime.seconds} seconds`;
+var m1 = `Total time of playlist: ${totalTime.hours} hrs ${totalTime.minutes} mins ${totalTime.seconds} secs`;
 
 //to calculate average time
 var totalTimeInSec =
