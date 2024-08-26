@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +7,30 @@
     <title>YouTube Playlist Duration</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div id="image">
-        <img src="./assets/icon48.png">
+    <div id="content">
+        <div id="image">
+            <img src="./assets/icon48.png" alt="Icon">
+        </div>
+
+        <p id="v"></p>
+        <p id="avg"></p>
+
+        <div id="controls">
+            <label for="speed">Playback speed:&nbsp;</label>
+            <select id="speed">
+                <option value="1">1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="1.75">1.75x</option>
+                <option value="2">2x</option>
+            </select>
+        </div>
+        <p id="duration"></p>
     </div>
-    <p id="v"></p>
-    <p id="avg"></p>
-    <p id="p1"></p>
-    <p id="p1_5"></p>
-    <p id="p2"></p>
-    <br>
     <footer>
-            Note: Scroll down to count more videos. Few videos may not have loaded.<br/>
-            Please reload the page if you are seeing wrong number of videos.
+        Note: Scroll down to count more videos. Few videos may not have loaded.<br />Please reload the page if you are seeing the wrong number of videos.
     </footer>
     <script src="popup.js"></script>
 </body>
-
 </html>

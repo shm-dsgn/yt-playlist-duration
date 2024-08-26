@@ -31,7 +31,7 @@ allPlaylistVideos.forEach((element) => {
       timelist = element.querySelector("span#text").innerHTML.split(":");
     }
     vidCount++;
-    console.log(timelist);
+    //console.log(timelist);
 
     if (timelist.length === 2) {
       totalTime.minutes += Number(timelist[0]);
@@ -57,7 +57,7 @@ timeCalc = (time, totalTime) => {
 
   hrs = totalTime.hours > 0 ? `${totalTime.hours} hrs ` : ``;
   mins = totalTime.minutes > 0 ? `${totalTime.minutes} mins ` : ``;
-  secs = totalTime.seconds > 0 ? `${totalTime.seconds} secs` : ``;
+  secs = totalTime.seconds > 0 ? `${totalTime.seconds} s` : ``;
 
   return hrs + mins + secs;
 };
@@ -71,29 +71,32 @@ totalTime.seconds = totalTime.seconds % 60;
 totalTime.hours += parseInt(totalTime.minutes / 60);
 totalTime.minutes = totalTime.minutes % 60;
 
-var m1 = `Total time of playlist: ${totalTime.hours} hrs ${totalTime.minutes} mins ${totalTime.seconds} secs`;
-
-//to calculate average time
 var totalTimeInSec =
   totalTime.seconds + totalTime.minutes * 60 + totalTime.hours * 3600;
+
+var t1 = `Total time: ${totalTime.hours} hrs ${totalTime.minutes} mins ${totalTime.seconds} s`;
+
+//to find average duration of video
 var average = parseInt(totalTimeInSec / vidCount);
-var m_avg = `Average duration of a video: ${timeCalc(average, totalTime)}`;
+var t_avg = `Avg. duration of a video: ${timeCalc(average, totalTime)}`;
 
-//to calculate time at 1.5x
-var totalTimeInSec1_5 = totalTimeInSec / 1.5;
-var m1_5 = `At 1.5x: ${timeCalc(totalTimeInSec1_5, totalTime)}`;
+var t1_25 = `At 1.25x: ${timeCalc(totalTimeInSec / 1.25, totalTime)}`;
 
-//to calculate time at 2x
-var totalTimeInSec2 = totalTimeInSec / 2;
-var m2 = `At 2x: ${timeCalc(totalTimeInSec2, totalTime)}`;
+var t1_5 = `At 1.5x: ${timeCalc(totalTimeInSec / 1.5, totalTime)}`;
 
+var t1_75 = `At 1.75x: ${timeCalc(totalTimeInSec / 1.75, totalTime)}`;
+
+var t2 = `At 2x: ${timeCalc(totalTimeInSec / 2, totalTime)}`;
+
+// Send details back including all speeds
 var details = {
   vid: mvid,
-  //total_vid: mtotal_vid,
-  avgTime: m_avg,
-  time1: m1,
-  time1_5: m1_5,
-  time2: m2,
+  avgTime: t_avg,
+  time1: t1,
+  time1_25: t1_25,
+  time1_5: t1_5,
+  time1_75: t1_75,
+  time2: t2,
 };
 
 chrome.runtime.sendMessage(details);
