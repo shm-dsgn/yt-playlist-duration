@@ -12,16 +12,6 @@ A simple JavaScript application which when opened in a tab having a YouTube play
 
 Works only for Chrome or Chromium based browsers (eg: Edge, Brave, etc)
 
-## Preview
-
-![Screenshot](https://drive.google.com/uc?id=1kdZ-74MhejOYQS7wvoG5nY1VCKCbfA3d)
-
-![Screenshot](https://drive.google.com/uc?id=1XUXhgd7sJGCJBEO6kJc0pbukQWrR_w_8)
-
-![Screenshot](https://drive.google.com/uc?id=1__wGcW89Ic7X7ZpJSpU2ELCNITqZr3P-)
-
-![Screenshot](https://drive.google.com/uc?id=1VTEhheXwBv7EF0itFrl08YX6x4cPpSW0)
-
 ## Installation 
 
 Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-playlist-duration/bpojpijaddmjkblcbkhnhhgjecmfmgil)
