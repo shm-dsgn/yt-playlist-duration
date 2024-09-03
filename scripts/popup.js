@@ -32,7 +32,7 @@ function callCalculate(tab) {
   const { id, url } = tab;
   const isPlaylist = url.includes("https://www.youtube.com/playlist?") || url.match(/^.*(youtu.be\/|list=)([^#\&\?]*).*/);
   if (isPlaylist) {
-    chrome.scripting.executeScript({ target: { tabId: id }, files: ["content.js"] });
+    chrome.scripting.executeScript({ target: { tabId: id }, files: ["scripts/content.js"] });
   } else {
     document.querySelector("#v").innerText = "This page doesn't have a YouTube playlist.";
     document.querySelector("footer").innerText = "";
