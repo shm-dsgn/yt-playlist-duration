@@ -5,7 +5,7 @@ function storeSelectedSpeed(speed) {
   });
 }
 
-// Function to retrieve the selected speed from Chrome storage and check timestamp
+// Function to retrieve the selected speed from Chrome storage
 function getStoredSpeed(callback) {
   chrome.storage.local.get(['selectedSpeed', 'timestamp'], (result) => {
     if (chrome.runtime.lastError) {
