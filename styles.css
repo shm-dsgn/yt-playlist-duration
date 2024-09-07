@@ -46,9 +46,19 @@ select {
     outline: none;
 }
 
-footer {
+.footer {
     font-size: 10px;
     padding: 10px 0;
     text-align: center;
     color: #a4a4a4;
+}
+
+.donate {
+    font-size: 10px;
+    text-align: center;
+    color: #a4a4a4;
+}
+
+.donate a{
+    color: #00b7ff;
 }

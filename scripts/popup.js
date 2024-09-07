@@ -35,7 +35,7 @@ function callCalculate(tab) {
     chrome.scripting.executeScript({ target: { tabId: id }, files: ["scripts/content.js"] });
   } else {
     document.querySelector("#v").innerText = "This page doesn't have a YouTube playlist.";
-    document.querySelector("footer").innerText = "";
+    document.querySelector(".footer").innerText = "";
     document.querySelector("#controls").style.display = "none";
   }
 }
